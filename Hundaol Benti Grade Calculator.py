@@ -4,10 +4,7 @@ name = str(input("Enter your name :"))#this takes input of name from the user
 section = int(input("Enter your section :"))
 ID_no = str(input("Enter your ID :"))
 Year = int(input("Enter the year :"))
-print("--------------------------------")
-print("|","name |","Section |","ID :")
-print(name,"   ",section," ",ID_no)
-print("--------------------------------")
+
 def Grade_calculator():
 
     score = int(input("Enter your score :"))
